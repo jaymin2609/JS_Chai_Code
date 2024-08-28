@@ -37,3 +37,29 @@ const myFun = function(){
 console.log(typeof bigNumber);
 
 
+// ++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap(Non-premitive)
+
+let myYoutubeName = "abc.com"
+
+let anotherName = myYoutubeName
+
+anotherName = "chai-code"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let user1 = {
+    email:"abc@gmail.com",
+    upi:"abc@ok"
+}
+
+let user2 = user1
+
+user2.email="xyz@gmail.com"
+console.log(user1);
+console.log(user2);
+
+
+
